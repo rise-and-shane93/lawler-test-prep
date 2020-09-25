@@ -9,13 +9,17 @@ import store from './redux/store';
 import { Provider } from 'react-redux';
 
 import Landing from './components/layout/Landing';
+import Header from './components/layout/Header';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div className="App">
-          <Route exact path="/" component={Landing} />
+          <Header/>
+          <Switch>
+            <Route exact path="/" component={Landing} />
+          </Switch>
         </div>
       </Router>
     );
