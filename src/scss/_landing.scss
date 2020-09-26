@@ -1,0 +1,65 @@
+// .App {
+//     text-align: center;
+//   }
+  
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//     height: 80px;
+//   }
+  
+//   .App-header {
+//     background-color: #222;
+//     height: 150px;
+//     padding: 20px;
+//     color: white;
+//   }
+  
+//   .App-intro {
+//     font-size: large;
+//   }
+  
+//   @keyframes App-logo-spin {
+//     from { transform: rotate(0deg); }
+//     to { transform: rotate(360deg); }
+//   }
+
+#jumbotron {
+    background-image: url("../images/textbookOpen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include flexBox(column, flex-end);
+    height: 500px;
+
+    #tip {
+        // background-color: rgba(0,0,0,0.5);
+        background:linear-gradient(70deg, transparent, transparent 20%, darken($teal, 15%) 20%, 
+        darken($teal, 15%) 22%, transparent 22%, transparent 24%, $teal 24%, $teal 26%, 
+        rgba(0,0,0,0.5) 26%);
+        text-transform: uppercase;
+        text-align: right;
+        padding: 10px 20px 10px 0;
+
+        h2 {
+            color: $teal;
+        }
+
+        p {
+            color: white;
+        }
+    }
+}
+
+#about {
+    @include flexBox(row,space-between);
+
+    padding: 20px;
+
+    &-english,
+    &-spanish {
+        max-width: 550px;
+    }
+
+    &-english {
+        text-align: right;
+    }
+}

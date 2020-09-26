@@ -1,0 +1,22 @@
+header {
+    padding: 20px;
+    background-color: $darkGrey;
+    color: white;
+    @include flexBox(row,space-between);
+}
+
+.logo {
+    width: 250px;
+}
+
+.btn-login {
+    background-color: $navy;
+    padding: 5px 50px;
+    border: none;
+    border-radius: 30px;
+    transition: .3s all ease;
+    text-transform: uppercase;
+    &:hover {
+        background-color: lighten($navy, 15%);
+    }
+}

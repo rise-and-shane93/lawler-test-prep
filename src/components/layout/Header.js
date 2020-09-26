@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import logo from '../../images/logo.png';
 
 const Header = () => {
     return (
-        <header className="App-header">
-            <p>Lawler Test Prep</p>
+        <header>
+            <img className="logo" srcSet={logo} alt="Lawler Test Prep"/>
+            <button class="btn-login">Login</button>
         </header>
     )
 }
