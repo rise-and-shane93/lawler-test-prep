@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../../images/logo.png';
+import { Link } from 'react-router-dom';
+import TipsContact from "../layout/TipsContact";
 
 const About = ({match}) => {
     
@@ -9,7 +10,15 @@ const About = ({match}) => {
     let renderedText = lang === 'en' ? englishText : spanishText;
 
     return (
-        <div dangerouslySetInnerHTML={{__html: renderedText}} />
+        <>
+            <section id="about-info">
+                <div id="return-to-home">
+                    <Link to="/" title="Return to home page"><i class="fa fa-caret-left"></i></Link>
+                </div>
+                <div dangerouslySetInnerHTML={{__html: renderedText}} />
+            </section>
+            <TipsContact/>
+        </>
     );
 }
 
