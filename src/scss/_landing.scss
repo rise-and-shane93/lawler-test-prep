@@ -53,6 +53,8 @@
     @include flexBox(row,space-between);
 
     padding: 20px;
+    background-color: $navy;
+    color: white;
 
     &-english,
     &-spanish {
@@ -61,5 +63,18 @@
 
     &-english {
         text-align: right;
+    }
+
+    .about-btn {
+        padding: 5px 20px;
+        border: none;
+        border-radius: 30px;
+        transition: .3s all ease;
+        text-transform: uppercase;
+        background-color: white;
+        color: $navy;
+        &:hover {
+            background-color: darken(white, 15%);
+        }
     }
 }

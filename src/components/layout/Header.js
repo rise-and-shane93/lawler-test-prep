@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <img className="logo" srcSet={logo} alt="Lawler Test Prep"/>
-            <button class="btn-login">Login</button>
+            <button className="btn-login">Login</button>
         </header>
     )
 }

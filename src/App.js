@@ -10,6 +10,7 @@ import { Provider } from 'react-redux';
 
 import Landing from './components/layout/Landing';
 import Header from './components/layout/Header';
+import About from './components/pages/About';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Header/>
           <Switch>
             <Route exact path="/" component={Landing} />
+            <Route path="/about-:lang" component={About} />
           </Switch>
         </div>
       </Router>
