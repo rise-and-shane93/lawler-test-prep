@@ -59,6 +59,10 @@
     &-english,
     &-spanish {
         max-width: 550px;
+        
+        p {
+            margin-bottom: 2rem !important;
+        }
     }
 
     &-english {
@@ -66,15 +70,30 @@
     }
 
     .about-btn {
-        padding: 5px 20px;
-        border: none;
-        border-radius: 30px;
-        transition: .3s all ease;
+        padding: 10px 20px;
         text-transform: uppercase;
-        background-color: white;
-        color: $navy;
-        &:hover {
-            background-color: darken(white, 15%);
-        }
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+#tips-contact {
+    @include flexBox(row,center,center);
+    height: 150px;
+
+    > div {
+        @include flexBox(column,center,center);
+        width: calc(100%/3);
+        height: 100%;
+    }
+
+    .tips-resources,
+    .contact-box {
+        background-color: $lightGrey;
+    }
+
+    .enter-email {
+        background-color: $darkGrey;
+        color: white;
     }
 }

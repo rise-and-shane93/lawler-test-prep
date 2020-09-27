@@ -1,0 +1,25 @@
+.white-btn,
+.navy-btn {
+    border: none;
+    border-radius: 30px;
+    transition: .3s all ease;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navy-btn {
+    background-color: $navy;
+    color: white;
+    &:hover {
+        background-color: lighten($navy, 15%);
+    }
+}
+
+.white-btn {
+    background-color: white;
+    color: $navy;
+    &:hover {
+        background-color: darken(white, 15%);
+    }
+}
