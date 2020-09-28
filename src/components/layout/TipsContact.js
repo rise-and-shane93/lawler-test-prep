@@ -7,7 +7,7 @@ const TipsContact = () => {
             <div className="tips-resources">
                 <Link to="/tips-resources" className="navy-btn">Tips & Resources</Link>
             </div>
-            <div class="enter-email">
+            <div className="enter-email">
                 <p>Get your free SAT diagnostic score.<br/>Sign up below.</p>
                 <Link to="/contact" className="white-btn">Please enter your email</Link>
             </div>
