@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 
 const Login = () => {
     return (
-        <div>
-            <button id="btn-login" className="navy-btn">Login</button>
-        </div>
+        <section id="login-modal">
+            <div id="login-inner">
+                <button className="navy-btn">&times;</button>
+            </div>
+        </section>
     )
 }
 
