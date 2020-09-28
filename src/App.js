@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import logo from './logo.svg';
 
 import './App.css';
 
@@ -10,6 +9,7 @@ import { Provider } from 'react-redux';
 
 import Landing from './components/layout/Landing';
 import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 import About from './components/pages/About';
 
 class App extends Component {
@@ -22,6 +22,7 @@ class App extends Component {
             <Route exact path="/" component={Landing} />
             <Route path="/about-:lang" component={About} />
           </Switch>
+          <Footer/>
         </div>
       </Router>
     );

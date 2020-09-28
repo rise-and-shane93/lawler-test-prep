@@ -1,11 +1,40 @@
-#about-info {
+#about {
 
-    background-color: lighten($lightGrey, 15%);
+    &-info {
+        background-color: lighten($lightGrey, 15%);
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
 
-    > div {
-        padding: 20px;
+    &-text {
+        padding: 30px 20px;
         background-color: $lightGrey;
-        max-width: 75%;
+        max-width: 85%;
         margin: 0 auto;
+        border-radius: 5px;
+
+        div {
+            background-color: lighten($lightGrey, 15%);
+            padding: 20px 40px;
+            border-radius: 20px;
+            border: 2px solid $navy;
+        }
+    }
+}
+
+#return-to-home {
+    max-width: 85%;
+    @include flexBox(row, flex-start, center);
+    background-color: $navy;
+    color: white;
+    text-transform: uppercase;
+    margin: 2rem auto;
+    padding: 0 20px;
+    border-radius: 15px;
+
+    a {
+        color: white;
+        font-size: 2.5rem;
+        text-decoration: none;
     }
 }
