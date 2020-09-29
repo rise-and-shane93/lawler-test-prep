@@ -21,6 +21,11 @@ class Login extends Component {
                     <div id="login-credentials">
                         <img className="person-avatar" srcset={PersonAvatar} 
                         alt="person avatar" aria-hidden="true"/>
+                        <form id="user-login">
+                            <input type="text" id="login-username" name="login-username" placeholder="Username"/>
+                            <input type="text" id="login-password" name="login-password" placeholder="Password"/>
+                            <input type="submit" id="user-login-btn" value="Login"/>
+                        </form>
                     </div>
                 </div>
             </div>
