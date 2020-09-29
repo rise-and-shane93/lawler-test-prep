@@ -24,6 +24,13 @@
     }
 }
 
+.btn-disabled {
+    background-color: $lightGrey !important;
+    &:hover {
+        background-color: $lightGrey !important;
+    }
+}
+
 #login {
 
     // &-overlay {
@@ -53,6 +60,19 @@
         right: 10px;
         font-size: 1.5rem;
         padding: 3px 10px;
+    }
+
+    &-credentials {
+
+        position: absolute;
+        top: 75px;
+        width: 100%;
+
+        .person-avatar {
+            width: 100px;
+            display: block;
+            margin: 0 auto;
+        }
     }
 }
 

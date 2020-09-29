@@ -9,6 +9,8 @@ class Header extends Component {
         this.state = {
             displayClass: "display-none"
         };
+
+        this.btnLogin = React.createRef();
     }
 
     // handleOpenModal = () => {
@@ -18,7 +20,16 @@ class Header extends Component {
     // }
 
     handleModal = () => {
-        let updatedState = this.state.displayClass === "display-block" ? "display-none" : "display-block";
+        let updatedState = "";
+        if (this.state.displayClass === "display-block") {
+            updatedState = "display-none";
+            this.btnLogin.current.disabled = false;
+            this.btnLogin.current.classList.remove("btn-disabled");
+        } else {
+            updatedState = "display-block";
+            this.btnLogin.current.disabled = true;
+            this.btnLogin.current.classList.add("btn-disabled");
+        }
         this.setState({
             displayClass: updatedState
         });
@@ -35,7 +46,8 @@ class Header extends Component {
             <>
                 <header>
                     <img className="logo" srcSet={logo} alt="Lawler Test Prep"/>
-                    <button id="btn-login" className="navy-btn" onClick={this.handleModal}>Login</button>
+                    <button id="btn-login" className="navy-btn" ref={this.btnLogin}
+                    onClick={this.handleModal}>Login</button>
                 </header>
                 <Login display={this.state.displayClass} closeModal={this.handleModal} />
             </>
