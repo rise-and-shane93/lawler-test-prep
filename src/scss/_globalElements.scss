@@ -1,3 +1,11 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p, a, li, button, input{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .white-btn,
 .navy-btn {
     border: none;
@@ -59,7 +67,7 @@
         top: 10px;
         right: 10px;
         font-size: 1.5rem;
-        padding: 3px 10px;
+        padding: 3px 13px;
     }
 
     &-credentials {
