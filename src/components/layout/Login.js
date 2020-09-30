@@ -24,7 +24,12 @@ class Login extends Component {
                         <form id="user-login">
                             <input type="text" id="login-username" name="login-username" placeholder="Username"/>
                             <input type="text" id="login-password" name="login-password" placeholder="Password"/>
-                            <input type="submit" id="user-login-btn" value="Login"/>
+                            <input type="submit" id="user-login-btn" value="Login" className="navy-btn"/>
+                            <div>
+                                <input type="checkbox" id="remember-user" name="remember-user" value="Remember Me"/>
+                                <label for="remember-user">Remember Me</label>
+                                <p><a href="https://shanecharper.com">Forgot your password?</a></p>
+                            </div>
                         </form>
                     </div>
                 </div>

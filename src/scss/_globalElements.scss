@@ -88,5 +88,26 @@
 #user {
     &-login {
         @include flexBox(column,center,center);
+        width: 300px;
+        margin: 0 auto;
+        input[type="text"],
+        input[type="submit"] {
+            margin-top: 1rem;
+            padding: 7px 0;
+            width: 280px;
+        }
+        > div {
+            @include flexBox(row, center, center);
+            width: 100%;
+            font-size: 0.85rem;
+        }
     }
+}
+
+#remember-user {
+    margin-right: 3px;
+}
+
+label[for="remember-user"] {
+    margin-right: 20px;
 }
