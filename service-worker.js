@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lawler-test-prep/precache-manifest.83ceab002cad897786d3e97d9c1dd673.js"
+  "/lawler-test-prep/precache-manifest.a47f5c3dc4f91342ba2f9d871cf5b587.js"
 );
 
 self.addEventListener('message', (event) => {

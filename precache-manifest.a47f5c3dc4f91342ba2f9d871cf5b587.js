@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7855887116ff17fcaf2af5591fb8735d",
+    "revision": "6cc927eb1085bc5f4cdbf4dd32c7635e",
     "url": "/lawler-test-prep/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lawler-test-prep/static/css/2.fc8d1cc4.chunk.css"
   },
   {
-    "revision": "16234d5eae2186ec7056",
+    "revision": "8480487c37fa6398c80b",
     "url": "/lawler-test-prep/static/css/main.ae7e1928.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lawler-test-prep/static/js/2.af3712c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "16234d5eae2186ec7056",
-    "url": "/lawler-test-prep/static/js/main.4225eadd.chunk.js"
+    "revision": "8480487c37fa6398c80b",
+    "url": "/lawler-test-prep/static/js/main.c23fa141.chunk.js"
   },
   {
     "revision": "c96c820d5e6014d5c4b0",
