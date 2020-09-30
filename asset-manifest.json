@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/lawler-test-prep/static/css/main.ae7e1928.chunk.css",
+    "main.js": "/lawler-test-prep/static/js/main.4225eadd.chunk.js",
+    "main.js.map": "/lawler-test-prep/static/js/main.4225eadd.chunk.js.map",
+    "runtime-main.js": "/lawler-test-prep/static/js/runtime-main.ef8cce1c.js",
+    "runtime-main.js.map": "/lawler-test-prep/static/js/runtime-main.ef8cce1c.js.map",
+    "static/css/2.fc8d1cc4.chunk.css": "/lawler-test-prep/static/css/2.fc8d1cc4.chunk.css",
+    "static/js/2.af3712c2.chunk.js": "/lawler-test-prep/static/js/2.af3712c2.chunk.js",
+    "static/js/2.af3712c2.chunk.js.map": "/lawler-test-prep/static/js/2.af3712c2.chunk.js.map",
+    "index.html": "/lawler-test-prep/index.html",
+    "precache-manifest.83ceab002cad897786d3e97d9c1dd673.js": "/lawler-test-prep/precache-manifest.83ceab002cad897786d3e97d9c1dd673.js",
+    "service-worker.js": "/lawler-test-prep/service-worker.js",
+    "static/css/2.fc8d1cc4.chunk.css.map": "/lawler-test-prep/static/css/2.fc8d1cc4.chunk.css.map",
+    "static/css/main.ae7e1928.chunk.css.map": "/lawler-test-prep/static/css/main.ae7e1928.chunk.css.map",
+    "static/js/2.af3712c2.chunk.js.LICENSE.txt": "/lawler-test-prep/static/js/2.af3712c2.chunk.js.LICENSE.txt",
+    "static/media/blank-avatar.png": "/lawler-test-prep/static/media/blank-avatar.3c40b0d7.png",
+    "static/media/font-awesome.min.css": "/lawler-test-prep/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo.png": "/lawler-test-prep/static/media/logo.c269a45a.png",
+    "static/media/App.scss": "/lawler-test-prep/static/media/textbookOpen.7e141f2e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef8cce1c.js",
+    "static/css/2.fc8d1cc4.chunk.css",
+    "static/js/2.af3712c2.chunk.js",
+    "static/css/main.ae7e1928.chunk.css",
+    "static/js/main.4225eadd.chunk.js"
+  ]
+}
