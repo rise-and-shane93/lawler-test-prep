@@ -19,7 +19,7 @@ class Login extends Component {
                     <button id="login-close" className="navy-btn" 
                     onClick={this.props.closeModal}>&times;</button>
                     <div id="login-credentials">
-                        <img className="person-avatar" srcset={PersonAvatar} 
+                        <img className="person-avatar" srcSet={PersonAvatar} 
                         alt="person avatar" aria-hidden="true"/>
                         <form id="user-login">
                             <input type="text" id="login-username" name="login-username" placeholder="Username"/>
@@ -27,7 +27,7 @@ class Login extends Component {
                             <input type="submit" id="user-login-btn" value="Login" className="navy-btn"/>
                             <div>
                                 <input type="checkbox" id="remember-user" name="remember-user" value="Remember Me"/>
-                                <label for="remember-user">Remember Me</label>
+                                <label htmlFor="remember-user">Remember Me</label>
                                 <p><a href="https://shanecharper.com">Forgot your password?</a></p>
                             </div>
                         </form>

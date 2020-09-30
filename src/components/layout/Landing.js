@@ -28,14 +28,14 @@ class Landing extends Component {
                             course that prepares & strengthens skills that are evaluated 
                             in the Standardized Aptitude Test (SAT). Student improvement 
                             is tangibly calculated at every step along the way.</p>
-                        <Link className="about-btn white-btn" to="/about-en">Read more about us here</Link>
+                        <Link className="about-btn white-btn" to="/lawler-test-prep/about-en">Read more about us here</Link>
                     </div>
                     <div id="about-spanish">
                         <p lang="es">Lawler Test Prep (LTP) lleva a los estudiantes a través 
                         de un curso profundo que prepara y fortalece las habilidades específicas 
                         que se evalúan en la Prueba de Razonamiento (SAT). El mejoramiento del 
                         estudiante se calcula de manera tangible en cada paso del camino.</p>
-                        <Link className="about-btn white-btn" lang="es" to="/about-es">Lea más sobre nosotros aquí</Link>
+                        <Link className="about-btn white-btn" lang="es" to="/lawler-test-prep/about-es">Lea más sobre nosotros aquí</Link>
                     </div>
                 </section>
                 <TipsContact/>

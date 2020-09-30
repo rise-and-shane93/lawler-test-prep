@@ -19,8 +19,8 @@ class App extends Component {
         <div className="App">
           <Header/>
           <Switch>
-            <Route exact path="/" component={Landing} />
-            <Route path="/about-:lang" component={About} />
+            <Route exact path="/lawler-test-prep/" component={Landing} />
+            <Route path="/lawler-test-prep/about-:lang" component={About} />
           </Switch>
           <Footer/>
         </div>
